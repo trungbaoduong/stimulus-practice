@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get "greet" => "greetings#greet"
   get "copy" => "clipboards#index"
+  get "slide" => "slideshows#index"
 end
