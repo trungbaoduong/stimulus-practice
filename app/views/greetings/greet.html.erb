@@ -1,4 +1,6 @@
-<div>
-  <input type="text">
-  <button>Greet</button>
+<div data-controller="hello">
+  <label>
+    <input data-hello-target="name" type="text">
+  </label>
+  <button data-action="click->hello#greet">Greet</button>
 </div>
